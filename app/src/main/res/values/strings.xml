@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flickr浏览器</string>
+    <string name="menu_clear">清除</string>
+    <string name="failed">加载失败</string>
+    <string name="new_pictures_title">新的图片</string>
+    <string name="new_pictures_text">你有新的图片</string>
+    <string name="open_subcribe">订阅</string>
+    <string name="close_subscribe">关闭订阅</string>
+</resources>

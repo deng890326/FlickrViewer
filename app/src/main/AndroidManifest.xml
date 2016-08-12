@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.wei.flickrviewer"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <permission android:name="com.example.wei.flickrviewer.private_broadcast"
+                android:protectionLevel="signature"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.example.wei.flickrviewer.private_broadcast"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GalleryPageActivity"/>
+
+        <service android:name=".NotificationService">
+            <intent-filter>
+                <action android:name="com.example.wei.flickrviewer.aciont_check_update"/>
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".NotificationReceiver"
+            android:exported="false"
+            android:permission="com.example.wei.flickrviewer.private_broadcast">
+            <intent-filter android:priority="-999">
+                <action android:name="com.example.wei.flickrviewer.action_notification"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".StartupReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

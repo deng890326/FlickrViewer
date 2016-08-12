@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:2:11-49
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+permission#com.example.wei.flickrviewer.private_broadcast
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:5:5-6:54
+	android:protectionLevel
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:6:17-52
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:5:17-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#com.example.wei.flickrviewer.private_broadcast
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:12:5-85
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:12:22-83
+application
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:14:5-51:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:18:9-35
+	android:allowBackup
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:16:9-43
+	android:theme
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.example.wei.flickrviewer.MainActivity
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:launchMode
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:21:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.wei.flickrviewer.GalleryPageActivity
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:30:19-54
+service#com.example.wei.flickrviewer.NotificationService
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:32:9-36:19
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:32:18-53
+intent-filter#com.example.wei.flickrviewer.aciont_check_update
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:33:13-35:29
+action#com.example.wei.flickrviewer.aciont_check_update
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:34:17-90
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:34:25-88
+receiver#com.example.wei.flickrviewer.NotificationReceiver
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:38:9-45:20
+	android:exported
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:40:13-37
+	android:permission
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:41:13-80
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:39:13-49
+intent-filter#com.example.wei.flickrviewer.action_notification
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:42:13-44:29
+	android:priority
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:42:28-51
+action#com.example.wei.flickrviewer.action_notification
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:43:17-90
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:43:25-88
+receiver#com.example.wei.flickrviewer.StartupReceiver
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:46:9-50:20
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:46:19-50
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:47:13-49:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml:48:25-76
+uses-sdk
+INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\study\FlickrViewer\app\src\main\AndroidManifest.xml

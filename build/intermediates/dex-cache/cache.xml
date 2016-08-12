@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_575fcb644d5d6e59e25f0ac72300f6129b7c566f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_8652e0fecaf3de988117f3bb47cc221cd6698cd3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_236aa593111d568e6de755902ab8e74a9304bb6d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_0dd94e569a0a5bf317a2e4138adb2e2714fc0831\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b26d19a96d01f74a73722a74099b0a8fa6da589">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_245cd39301301d2396439ffdf1ba4d6484c3b836\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\wei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_bd8de23b6b4a7239937fefbd1a3dbe3efe72fe1d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\wei\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.1\b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8\butterknife-5.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-5.1.1_484efa29120a5cde6da10460261604f5c72c3230\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\study\FlickrViewer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="469a4c11c036bafad6934dbcc538be8847fc39dd">
+        <dex dex="D:\Android\study\FlickrViewer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b3d2ba76e1622acde528c9e51fef588849b50490\classes.dex" />
+    </item>
+
+</items>
